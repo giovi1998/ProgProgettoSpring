@@ -66,4 +66,4 @@ target
 test
 .mvn
 ProgettoSpring.iml
-src/resources
+src/main/resources
