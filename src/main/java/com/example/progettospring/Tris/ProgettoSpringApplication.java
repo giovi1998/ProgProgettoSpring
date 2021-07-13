@@ -1,4 +1,4 @@
-package com.example.progettospring;
+package com.example.progettospring.Tris;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

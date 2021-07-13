@@ -1,4 +1,4 @@
-package com.example.progettospring.entities;
+package com.example.progettospring.Es1.entities;
 
 
 import java.util.UUID;

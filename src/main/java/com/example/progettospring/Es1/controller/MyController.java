@@ -1,9 +1,9 @@
-package com.example.progettospring.Controller;
+package com.example.progettospring.Es1.controller;
 
 
-import com.example.progettospring.Services.MyService;
-import com.example.progettospring.entities.Company;
-import com.example.progettospring.entities.Parola;
+import com.example.progettospring.Es1.services.MyService;
+import com.example.progettospring.Es1.entities.Company;
+import com.example.progettospring.Es1.entities.Parola;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,7 @@ public class MyController {
         this.myService = myService;
     }
 
-    /*@RequestMapping(value = "/companies", method = RequestMethod.GET)
+    @RequestMapping(value = "/companies", method = RequestMethod.GET)
     public List<Company> getAllCompanies(
             @RequestParam(required = false) String startsWith
     ){
@@ -84,6 +84,6 @@ public class MyController {
                 .body(c);
     }
 
-*/
+
 
 }

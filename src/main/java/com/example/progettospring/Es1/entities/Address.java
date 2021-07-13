@@ -1,7 +1,4 @@
-package com.example.progettospring.entities;
-
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+package com.example.progettospring.Es1.entities;
 
 public class Address {
 

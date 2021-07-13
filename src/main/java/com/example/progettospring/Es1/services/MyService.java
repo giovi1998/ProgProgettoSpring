@@ -1,8 +1,8 @@
-package com.example.progettospring.Services;
+package com.example.progettospring.Es1.services;
 
-import com.example.progettospring.Repositories.MyRepository;
-import com.example.progettospring.entities.Company;
-import com.example.progettospring.entities.Parola;
+import com.example.progettospring.Es1.repositories.MyRepository;
+import com.example.progettospring.Es1.entities.Company;
+import com.example.progettospring.Es1.entities.Parola;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -26,7 +26,7 @@ public class MyService {
         this.myRepository = myRepository;
     }
 
-    /*
+
     public List<Company> getAllCompanies(String startsWith){
         return myRepository.getAllCompanies().stream().filter(c -> c.getName().startsWith(startsWith)).collect(Collectors.toList());
     }
@@ -68,5 +68,5 @@ public class MyService {
     public void setCountDec() {
         --count;
     }
-     */
+
 }

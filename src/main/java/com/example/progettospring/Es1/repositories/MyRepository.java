@@ -1,16 +1,15 @@
-package com.example.progettospring.Repositories;
+package com.example.progettospring.Es1.repositories;
 
-import com.example.progettospring.entities.Company;
+import com.example.progettospring.Es1.entities.Company;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 @Repository
 public class MyRepository {
-/*
+
     private List<Company> companies = new ArrayList<>();
 
 
@@ -29,6 +28,7 @@ public class MyRepository {
         return company;
     }
 
- */
+
+
 
 }
